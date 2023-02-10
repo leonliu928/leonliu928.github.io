@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Atkinson;
+    src: url("./Font/Atkinson-Hyperlegible-Regular-102.ttf");
+}
+
+@font-face {
+    font-family: Atkinson-Italic;
+    src: url("./Font/Atkinson-Hyperlegible-Italic-102.ttf");
+}
+
+@font-face {
+    font-family: Atkinson-Bold;
+    src: url("./Font/Atkinson-Hyperlegible-Bold-102.ttf");
+}
+
+@font-face {
+    font-family: Atkinson-BoldItalic;
+    src: url("./Font/Atkinson-Hyperlegible-BoldItalic-102.ttf");
+}
+
+h1 {
+    font-size: 72px;
+    font-family: Atkinson;
+}
+
+body {
+    background-color: beige;
+    text-align: center;
+}
+
+p {
+    font-family: Atkinson;
+    max-width: 800px;
+    margin: 50px auto;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+input {
+    font-family: Atkinson;
+    font-size: 18px;
+}
+
+textarea {
+    font-family: Atkinson;
+    font-size: 18px;
+}
+
+form {
+    font-family: Atkinson;
+    font-size: 18px;
+}
+
+ul {
+    margin-top: 50px;
+    list-style-position: inside;
+    margin-bottom: 50px;
+}
+
+li {
+    font-family: Atkinson;
+    font-size: 18px;
+}
+
+h2 {
+    font-family: Atkinson;
+    font-size: 36px;
+    margin-bottom: -30px;
+}
+
+h3 {
+    font-family: Atkinson;
+    font-size: 24px;
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+#bio-image {
+    width: 493px;
+    height: 609px;
+    border: 1.5px solid transparent;
+    border-color: black;
+    margin-bottom: 25px;
+}
+
+#cat-image {
+    width: 204px;
+    height: 284px;
+    border: 1.5px solid transparent;
+    border-color: black;
+    margin-bottom: 25px;
+}
+
+#subtitle {
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
